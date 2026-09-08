@@ -6,6 +6,10 @@ android {
     namespace = "com.fluxofinancas.app"
     compileSdk = 35
 
+    buildFeatures {
+        buildConfig = true
+    }
+
     defaultConfig {
         applicationId = "com.fluxofinancas.app"
         minSdk = 26
